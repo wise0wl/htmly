@@ -1845,7 +1845,7 @@ function copyright()
     $credit = 'Proudly powered by <a href="http://www.htmly.com" target="_blank">HTMLy</a>';
 
     if (!empty($blogcp)) {
-        return $copyright = '<p>' . $blogcp . '</p><p>' . $credit . '</p>';
+        return $copyright = '<p>' . $blogcp . '</p>';
     } else {
         return $credit = '<p>' . $credit . '</p>';
     }
